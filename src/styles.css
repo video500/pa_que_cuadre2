@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 21%
+  );
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: 300px; /* Or whatever */
+}
+
+.child {
+  width: 400px; /* Or whatever */
+  /*height: 100px; /* Or whatever */
+  margin: auto; /* Magic! */
+}
